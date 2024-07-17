@@ -17,7 +17,7 @@ header {
   right: 0%;
   height: 13%;
   display: flex;
-  align-content: center;
+  align-items: center;
   background-color: rgb(50, 26, 184);
 
 }
@@ -50,6 +50,10 @@ li {
   font-size: 16px;
   list-style: none;
   height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .imgderecha {
@@ -72,22 +76,62 @@ li {
 
 
 .primera_Parte {
-
-
-  height: 1000px;
+  height: 600px;
   width: 100%;
 }
 
 .segunda_Parte {
   display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #c443ae;
   height: 600px;
   width: 100%;
+  flex-direction: row;
+
+}
+
+.parte_Servicios{
+  background-image: url("/assets/");
+}
+
+.serv-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.wrapper-serv-princ {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  background-image: url("/assets/backgroundServPrinc.png");
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.boton_Click{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: 20px;
+  flex: 0 0 100%;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 .tercera_Parte {
   display: flex;
-  background-color: #1e665c;
+  background-color: rgb(234, 234, 234);
   height: 600px;
   width: 100%;
 }
@@ -99,11 +143,39 @@ li {
   width: 100%;
 }
 
+.parte_Video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: #ffffff;
+  height: 600px;
+  width: 100%;
+  
+}
+
+.cont_Electricidad_Telecomunicaciones{
+height: 200px;
+
+}
+
+
+
+.nuestro_Negocio{
+  display: flex;
+  background-color: #792626;
+  height: 300px;
+  width: 100%
+}
+
 .video_Parte {
   display: flex;
   background-color: #ffffff00;
   height: 300px;
   width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 }
 
 
@@ -124,6 +196,29 @@ footer {
   width: 100%;
   height: 100;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
