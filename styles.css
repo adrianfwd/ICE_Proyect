@@ -91,8 +91,21 @@ li {
 
 }
 
-.parte_Servicios{
-  background-image: url("/assets/");
+.imagen_Estados{
+border-radius: 5px;
+}
+
+.parte_Serviciosa{
+  display: grid;
+  background-color: aliceblue;
+  justify-content: center;
+  justify-items: center;
+  height: 600px;
+  width: 100%;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+
+
 }
 
 .serv-col {
@@ -106,8 +119,9 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
-  
   background-image: url("/assets/backgroundServPrinc.png");
+  background-size: cover;
+
 }
 
 .row {
@@ -115,6 +129,8 @@ li {
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
+  border: #352b2b
+  2px;
 }
 
 .boton_Click{
@@ -144,14 +160,12 @@ li {
 }
 
 .parte_Video {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
+  display: grid;
   background-color: #ffffff;
   height: 600px;
   width: 100%;
-  
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
 }
 
 .cont_Electricidad_Telecomunicaciones{
@@ -169,7 +183,7 @@ height: 200px;
 }
 
 .video_Parte {
-  display: flex;
+  display: grid;
   background-color: #ffffff00;
   height: 300px;
   width: 100%;
