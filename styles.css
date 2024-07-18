@@ -21,6 +21,21 @@ header {
 
 }
 
+span {
+  color: #212529;
+  font-family: Helvetica;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+.cali {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+
+}
+
 button {
   border: none;
   margin-top: 30px;
@@ -29,6 +44,11 @@ button {
   border-radius: 4px;
   background-color: #004b93;
   color: #ffffff;
+}
+
+p{    
+  font-family: Helvetica;
+
 }
 
 
@@ -60,7 +80,7 @@ h3 {
   padding-top: 25px;
 }
 
-h4{
+h4 {
   font-size: 2rem;
 }
 
@@ -154,15 +174,15 @@ li {
   display: flex;
   margin-right: 40px;
   padding-right: 40px;
-  border-right: solid 1px #e9c60c;
-  
+  border-right: solid 1px #ffffff;
+
 }
 
-.imagen_Estados{
+.imagen_Estados {
   border-radius: 5px;
 }
 
-.Boletin{
+.Boletin {
   height: 300px;
   width: 30%;
 }
@@ -225,9 +245,14 @@ li {
 
 .cuarta_Parte {
   display: flex;
-  background-color: #352b2b;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
   height: 300px;
   width: 100%;
+  flex-direction: column;
+
 }
 
 
@@ -327,7 +352,7 @@ footer {
   display: flow-root;
   height: 118px;
   width: 100%;
-
+  padding: 21px 0px 0px 39px;
   background-color: #706f6f;
 }
 
@@ -495,4 +520,10 @@ footer {
 .serv-item img {
   max-width: 100%;
   height: auto;
+}
+
+#quiero{
+  color: rgb(0, 75, 147);
+  font-size: 2rem;
+  
 }
