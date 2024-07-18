@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="21px" viewBox="0 0 25 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 63 (101010) - https://sketch.com -->
+    <title>16628F45-B308-46AF-9B9F-44FF3EA88D98</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M13.2768503,2 C14.4070245,2 15.4305333,2.45916013 16.1472291,3.19635441 C17.0436981,3.02676511 17.8862352,2.71181357 18.6472751,2.27803415 C18.3524471,3.16289802 17.7292333,3.90470697 16.9178569,4.37309645 C17.6478939,4.28842945 18.3466642,4.1105576 19.0012143,3.84927812 L19,4.019 L18.9731515,4.05615077 C18.4823707,4.69808852 17.8869843,5.26704545 17.212685,5.73442547 C17.4631689,11.0609137 13.3367747,17 6.03079172,17 C3.80879493,17 1.74140309,16.3735579 -2.89848145e-11,15.2983387 C2.08776613,15.5348408 4.17073831,14.9776188 5.82465178,13.730503 C4.10242449,13.6993539 2.64985701,12.6045224 2.15008751,11.1001384 C2.76730884,11.213198 3.37374378,11.1797416 3.92624676,11.035533 C2.03383417,10.66982 0.728680716,9.02930318 0.770627797,7.27457314 C1.3003595,7.55837563 1.90799293,7.7291186 2.551581,7.74873096 C0.800589998,6.62159668 0.304415957,4.39501615 1.33391717,2.6922012 C3.27426927,4.98338717 6.17341179,6.49123212 9.44288711,6.64928473 C8.86881135,4.28080295 10.7372542,2 13.2768503,2 Z" id="path-1"></path>
+        <filter x="-28.9%" y="-23.3%" width="157.9%" height="173.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.318973995 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="WEB" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.9">
+        <g id="Menu---footer-2" transform="translate(-641.000000, -1243.000000)">
+            <g id="Group-5" transform="translate(644.000000, 1242.000000)">
+                <g id="Group-6">
+                    <g id="Combined-Shape">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

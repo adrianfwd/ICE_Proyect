@@ -1,7 +1,7 @@
 body {
   padding: 0;
   margin: 0;
-  bottom: 0;
+  bottom: -5px;
 }
 
 #top {
@@ -46,7 +46,7 @@ button {
   color: #ffffff;
 }
 
-p{    
+p {
   font-family: Helvetica;
 
 }
@@ -345,18 +345,6 @@ li {
 }
 
 
-footer {
-  bottom: -5px;
-  margin-top: -5px;
-  position: relative;
-  display: flow-root;
-  height: 118px;
-  width: 100%;
-  padding: 21px 0px 0px 39px;
-  background-color: #706f6f;
-}
-
-
 
 #videoParallaxDesktop {
   width: 100%;
@@ -522,8 +510,77 @@ footer {
   height: auto;
 }
 
-#quiero{
+#quiero {
   color: rgb(0, 75, 147);
   font-size: 2rem;
+
+}
+
+
+
+footer {
+  color: #ffffff;
+  bottom: 0;
+  margin-top: -5px;
+  position: relative;
+  display: flow-root;
+  height: 200px;
+  width: 100%;
+  padding: 60px 0px 0px 39px;
+  background-color: #706f6f;
+  font-size: 20px;
+  font-family: Helvetica;
+  flex-direction: row;
+}
+.row{
+
+  width: 100%;
+  justify-content: space-around;
+  flex-direction: row;
   
+}
+
+.social {
+  display: flex;
+
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.correo{
+  color: #f2f2f2;
+}
+
+.traductor {
+  display: flex;
+  justify-content: flex-end;
+  justify-self: left;
+  flex-direction: row;
+}
+
+.info{
+  display: flex;
+  flex-direction: row;
+  
+
+}
+.lineaDiv {
+  padding: 20px;
+
+
+}
+
+
+.cont{
+  margin-left: 20px;
+}
+
+.politicas{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.privacidad{
+  color: #ffffff;
 }
