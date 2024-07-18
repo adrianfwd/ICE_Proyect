@@ -56,41 +56,44 @@
     <!-- Slideshow container -->
     <div class="slideshow-container">
 
-      <!-- Full-width images with number and caption text -->
       <div class="mySlides fade">
-        <div class="numbertext">1 / 3</div>
-        <img src="/assets/bannerhome_grupoice_ElectroAsistencia_1280x446.png" style="width:100%">
-        <div class="text">Caption Text</div>
+        <img src="/assets/banner_ofertaintegrada_home_desk.png" style="width:100%">
       </div>
 
       <div class="mySlides fade">
-        <div class="numbertext">2 / 3</div>
         <img src="/assets/bannerhome_grupoice_ElectricidadPrepago_1280x446.png" style="width:100%">
-        <div class="text">Caption Two</div>
       </div>
 
       <div class="mySlides fade">
-        <div class="numbertext">3 / 3</div>
         <img src="/assets/1280x446bannerWebTienda.jpg" style="width:100%">
-        <div class="text">Caption Three</div>
       </div>
 
       <!-- Next and previous buttons -->
       <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
       <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
     </div>
-    <br>
+
     <!-- The dots/circles -->
-    <div style="text-align:center">
-      <span class="dot" onclick="currentSlide(1)"></span>
-      <span class="dot" onclick="currentSlide(2)"></span>
-      <span class="dot" onclick="currentSlide(3)"></span>
-    </div>
+
   </section>
 
 
 
 
+
+  <div class="titulo">
+    <div class="titulo_Centro">
+      <h1>¡Hola! Gracias por visitarnos</h1>
+    </div>
+    <div id="linea_Amarilla">
+    </div>
+  </div>
 
 
 
@@ -102,7 +105,7 @@
       <img class="imagen_Estados" src="/assets/estados+financieros+web.png" alt="">
     </div>
     <div class="Boletin">
-      <h2>Boletín de indicadores financieros de Grupo ICE Marzo 2024</h2>
+      <h4>Boletín de indicadores financieros de Grupo ICE Marzo 2024</h2>
       <div class="Boton_Click">
         <p><br></p>
         <p>Compartimos los principales datos de los Estados Financieros de Grupo ICE.</p>
@@ -117,168 +120,123 @@
   </div>
 
   <section class="parte_Serviciosa">
-    <div class="wrapper-serv-princ">
-      <div class="container wrapper-background-SP">
-        <div class="row">
-          <div class="header-serv-princ col-12">
-            <h2 class="title-serv-princ">Consulte aquí</h2>
+    <div class="container wrapper-background-SP">
+      <h2 class="title-serv-princ">Consulte aquí</h2>
+
+      <div class="services">
+        <div class="serv-col">
+          <div class="serv-item">
+            <img class="img_serv" src="/assets/app.png" alt="Sus facturas">
+            <span>Sus facturas</span>
           </div>
+          </a>
         </div>
 
-        <div class="row">
-          <div class="serv-col">
-            <a href="">
-              <div class="row serv-item">
-                <div class="">
-                  <img src="/assets/gfactElectr.png" alt="Imagen computadora y factura">
-                </div>
-                <div class="">
-                  <span>Sus facturas</span>
-                </div>
-              </div>
-            </a>
+        <div class="serv-col">
+          <div class="serv-item">
+            <img class="img_serv" src="/assets/opcionesPago.png" alt="Opciones de pago">
+            <span>Opciones de pago</span>
           </div>
-          <div class="serv-col">
-            <a href="">
-              <div class="row serv-item">
-                <div class="">
-                  <img src="/assets/opcionesPago.png" alt=" Opciones de pago">
-                </div>
-                <div class="">
-                  <span> Opciones de pago</span>
-                </div>
-              </div>
-            </a>
+          </a>
+        </div>
+
+        <div class="serv-col">
+          <div class="serv-item">
+            <img class="img_serv" src="/assets/reportes.png" alt="Reporte una avería">
+            <span>Reporte una avería</span>
           </div>
-          <div class="serv-col">
-            <a href="">
-              <div class="row serv-item">
-                <div class="">
-                  <img src="/assets/reportes.png" alt="Icono 3">
-                </div>
-                <div class="">
-                  <span>Reporte una avería</span>
-                </div>
-              </div>
-            </a>
+          </a>
+        </div>
+
+        <div class="serv-col">
+          <div class="serv-item">
+            <img class="img_serv" src="/assets/app.png" alt="Números de asistencia">
+            <span>Números de asistencia</span>
           </div>
-          <div class="serv-col">
-            <a href="">
-              <div class="row serv-item">
-                <div class="">
-                  <img src="/assets/app.png" alt="">
-                </div>
-                <div class="">
-                  <span>Números de asistencia</span>
-                </div>
-              </div>
-            </a>
+          </a>
+        </div>
+
+        <div class="serv-col">
+          <div class="serv-item">
+            <img class="img_serv" src="/assets/agenciaMasCercana.png" alt="Su agencia más cercana">
+            <span>Su agencia más cercana</span>
           </div>
-          <div class="serv-col">
-            <a href="">
-              <div class="row serv-item">
-                <div class="">
-                  <img src="/assets/agenciaMasCercana.png" alt="">
-                </div>
-                <div class="">
-                  <span>Su agencia más cercana</span>
-                </div>
-              </div>
-            </a>
+          </a>
+        </div>
+
+        <div class="serv-col">
+          <div class="serv-item">
+            <img class="img_serv" src="/assets/AgenciaVirtual.png" alt="Agencia virtual electricidad">
+            <span>Agencia virtual electricidad</span>
           </div>
-          <div class="serv-col ">
-            <a data-link="" class="nav-external">
-              <div class="row serv-item">
-                <div class="">
-                  <img src="/assets/AgenciaVirtual.png" alt="">
-                </div>
-                <div class="">
-                  <span> Agencia virtual electricidad</span>
-                </div>
-              </div>
-            </a>
+          </a>
+        </div>
+
+        <div class="serv-col">
+          <div class="serv-item">
+            <img class="img_serv" src="/assets/miKolbi.png" alt="mi kölbi">
+            <span>mi kölbi</span>
           </div>
-          <div class="serv-col">
-            <a data-link="" class="nav-external">
-              <div class="row serv-item">
-                <div class="">
-                  <img src="/assets/miKolbi.png" alt="">
-                </div>
-                <div class="col-12 col-md-12 col-lg-8 serv-item-caption">
-                  <span>mi kölbi</span>
-                </div>
-              </div>
-            </a>
+          </a>
+        </div>
+
+        <div class="serv-col">
+          <div class="serv-item">
+            <img class="img_serv" src="/assets/transparencia.png" alt="mi kölbi">
+            <span>Transparencia</span>
           </div>
-          <div class="serv-col">
-            <a href="">
-              <div class="row serv-item">
-                <div class="">
-                  <img src="/assets/transparencia.png" alt="">
-                </div>
-                <div class="">
-                  <span>Transparencia</span>
-                </div>
-              </div>
-            </a>
-          </div>
+          </a>
         </div>
       </div>
     </div>
   </section>
+
   <video autoplay="" muted="" loop="" playsinline="" id="videoParallaxDesktop">
     <source src="/assets/Banner+parallax+DESKTOP.mp4" type="video/mp4">
   </video>
 
-  <div class="ParallaxVideo">
-    <div class="parallax-cont">
-      <div id="imgParallaxIOS" style="display: none;">
-        <img class="imgParallax"
-          src="/wps/wcm/connect/889d8815-d8fb-4fb6-a422-e8073d14cf1c/Parallax-mobile-iOS.png?MOD=AJPERES&amp;CACHEID=ROOTWORKSPACE-889d8815-d8fb-4fb6-a422-e8073d14cf1c-o-IOjXe"
-          alt="">
-      </div>
-      <video autoplay="" muted="" loop="" playsinline="" class="d-none d-lg-block" id="videoParallaxDesktop">
-        <source
-          src="/wps/wcm/connect/750eaa03-a53b-4063-9489-fcc079283976/Banner+parallax+DESKTOP.mp4?MOD=AJPERES&amp;CONVERT_TO=url&amp;CACHEID=ROOTWORKSPACE-750eaa03-a53b-4063-9489-fcc079283976-o-IOjXe"
-          type="video/mp4">
-      </video>
-      <video autoplay="" muted="" loop="" playsinline="" class="d-block d-lg-none" id="videoParallaxMobile">
-        <source
-          src="/wps/wcm/connect/45b5a310-59da-40a7-b23d-0f9f8cadc44a/Banner+parallax+MOBILE.mp4?MOD=AJPERES&amp;CONVERT_TO=url&amp;CACHEID=ROOTWORKSPACE-45b5a310-59da-40a7-b23d-0f9f8cadc44a-o-IOjXe"
-          type="video/mp4">
-      </video>
-      <!-- <div class="caption-parallax izquierda blanco">
+
+
+  <!-- <div class="caption-parallax izquierda blanco">
                 <span class="titulo-1">Nuestros negocios</span>
                 <span class="titulo-2"></span>
-            </div> -->
-    </div>
-  </div>
+  </div> -->
+
+
 
 
   <section class="nuestro_Negocio">
-
+    <h2>Nuestros negocios</h2>
   </section>
+
 
   <section class="parte_Video">
 
-    <div class="cont_Electricidad_Telecomunicaciones">
-      <div id="Electricidad">
-        <div>
-          <img src="/assets/electricidad-icon.png" alt="">
-          <h3>Electricidad</h3>
-          <div class="item_Text">Ofrecemos servicios eléctricos y productos especiales para su hogar, su empresa y la
-            industria en general.</div>
-        </div>
-      </div>
-      <br>
 
+    <div id="Electricidad">
+      <img id="dibujo_Electricidad" src="/assets/electricidad-icon.png" alt="">
       <div>
-        <div id="telecomunicaciones">
-          <img src="/assets/telecomunicaciones-icon.png" alt="">
-          <h3>telecomunicaciones</h3>
-          <div class="item_Text">Brindamos soluciones de telecomunicaciones para satisfacer sus necesidades las de su
-            hogar y su negocios</div>
+        <h3>Electricidad</h3>
+        <div class="item_Text">
+          Ofrecemos servicios eléctricos y productos especiales para su hogar, su empresa y la
+          industria en general.
+
         </div>
+        <button>ver mas</button>
+      </div>
+    </div>
+    <br>
+
+    <div id="telecomunicaciones">
+      <img id="dibujo_Telecomunicaciones" src="/assets/telecomunicaciones-icon.png" alt="">
+      <div id="tele_">
+        <h3>telecomunicaciones</h3>
+        <div class="item_Text">
+          Brindamos soluciones de telecomunicaciones para satisfacer sus necesidades las de su
+          hogar y su negocios
+
+        </div>
+        <button>ver mas</button>
       </div>
     </div>
   </section>
@@ -308,7 +266,7 @@
   </section>
 
 
-
+  <!--------------------------------- Footer part ---------------------------------->
   <footer class="footer">
     <div class="row footer-up">
       <div class=" col-md-7 col-lg-7 col-xl-7 info">

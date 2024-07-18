@@ -1,11 +1,10 @@
-
 body {
   padding: 0;
   margin: 0;
   bottom: 0;
-  box-sizing: border-box;
 }
-#top{
+
+#top {
   height: auto;
 }
 
@@ -18,8 +17,51 @@ header {
   height: 13%;
   display: flex;
   align-items: center;
-  background-color: rgb(50, 26, 184);
+  background-color: #004b93;
 
+}
+
+button {
+  border: none;
+  margin-top: 30px;
+  height: 36px;
+  width: 114px;
+  border-radius: 4px;
+  background-color: #004b93;
+  color: #ffffff;
+}
+
+
+h1 {
+  font-size: 2.125rem;
+  font-family: Helvetica;
+  color: #004b93;
+  letter-spacing: 1px;
+  font-size: 2.75rem;
+  font-weight: bold;
+}
+
+h2 {
+  color: #004b93;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 2rem;
+  font-family: Helvetica;
+
+}
+
+h3 {
+  color: #212529;
+  font-family: Helvetica;
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 26px;
+  padding-top: 25px;
+}
+
+h4{
+  font-size: 2rem;
 }
 
 #navegador {
@@ -76,34 +118,65 @@ li {
 
 
 .primera_Parte {
-  height: 600px;
+
   width: 100%;
+}
+
+.titulo {
+  display: flex;
+
+  align-items: center;
+  left: 0%;
+  right: 0%;
+  height: 200px;
+  flex-direction: column;
+  padding-bottom: 80px;
+}
+
+#linea_Amarilla {
+  height: 2px;
+  width: 341px;
+  background: linear-gradient(90deg, #ffffff, #e9c60c, #ffffff);
 }
 
 .segunda_Parte {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #c443ae;
-  height: 600px;
+  background-color: #ffffff;
+  height: 500px;
   width: 100%;
   flex-direction: row;
 
 }
 
-.imagen_Estados{
-border-radius: 5px;
+.estados_Financieros {
+  display: flex;
+  margin-right: 40px;
+  padding-right: 40px;
+  border-right: solid 1px #e9c60c;
+  
 }
 
-.parte_Serviciosa{
+.imagen_Estados{
+  border-radius: 5px;
+}
+
+.Boletin{
+  height: 300px;
+  width: 30%;
+}
+
+
+.parte_Serviciosa {
   display: grid;
-  background-color: aliceblue;
+  background-color: rgb(255, 255, 255);
   justify-content: center;
   justify-items: center;
   height: 600px;
   width: 100%;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(6, 1fr);
+  /* grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr); */
 
 
 }
@@ -112,7 +185,7 @@ border-radius: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
- 
+
 }
 
 .wrapper-serv-princ {
@@ -129,11 +202,9 @@ border-radius: 5px;
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
-  border: #352b2b
-  2px;
 }
 
-.boton_Click{
+.boton_Click {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -159,33 +230,89 @@ border-radius: 5px;
   width: 100%;
 }
 
+
+.cont_Electricidad_Telecomunicaciones {
+  display: flex;
+  flex-direction: row;
+  height: 600px;
+  width: 400px;
+  align-content: center;
+  justify-content: center;
+
+}
+
+#telecomunicaciones {
+  display: flex;
+  width: 50%;
+  height: 43%;
+  margin-left: 15%;
+  grid-column: 2;
+  grid-row: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  border-color: 2px solid #000000;
+}
+
+#telecomunicaciones img {
+  width: 40%;
+}
+
+#dibujo_Telecomunicaciones {
+  height: 50%;
+}
+
+#Electricidad {
+  display: flex;
+  width: 50%;
+  height: 43%;
+  margin-left: 15%;
+  grid-column: 1;
+  grid-row: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  border-color: 2px solid #212529;
+}
+
+#Electricidad img {
+  width: 40%;
+}
+
+.item_Text {
+  font-family: Helvetica;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 17px;
+}
+
+
+#dibujo_Electricidad {
+  height: 50%;
+}
+
+.nuestro_Negocio {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  background-color: #ffffff;
+  height: 80px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
 .parte_Video {
   display: grid;
   background-color: #ffffff;
   height: 600px;
   width: 100%;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(6, 1fr);
-}
-
-.cont_Electricidad_Telecomunicaciones{
-height: 200px;
-
-}
-
-
-
-.nuestro_Negocio{
-  display: flex;
-  background-color: #792626;
-  height: 300px;
-  width: 100%
+  grid-template: 1fr/50% 50%;
 }
 
 .video_Parte {
   display: grid;
   background-color: #ffffff00;
-  height: 300px;
+  height: 400px;
   width: 100%;
   justify-content: center;
   align-items: center;
@@ -208,34 +335,8 @@ footer {
 
 #videoParallaxDesktop {
   width: 100%;
-  height: 100;
+  height: 20%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*Carrusel configurations*/
@@ -335,4 +436,63 @@ footer {
   to {
     opacity: 1
   }
+}
+
+
+.img_serv {
+  height: 60px;
+  width: 60px;
+}
+
+.wrapper-serv-princ {
+  padding: 20px;
+
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+
+}
+
+.title-serv-princ {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  justify-content: center;
+  text-align: center;
+  background-image: url("/assets/backgroundServPrinc.png");
+  background-size: cover;
+  height: 77%;
+}
+
+.serv-col {
+  width: 24%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.serv-item {
+  display: flex;
+  flex-direction: row;
+  width: 250px;
+  padding: 10px;
+  border-radius: 5px;
+  transition: transform 0.2s;
+  background-color: #ffffff;
+  box-shadow: 0 2px 40px 0 rgba(172, 172, 172, 0.5);
+}
+
+.serv-item:hover {
+  transform: scale(1.05);
+}
+
+.serv-item img {
+  max-width: 100%;
+  height: auto;
 }
