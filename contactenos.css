@@ -12,6 +12,11 @@ body {
     display: grid;
     grid-template: 80px / 5% 5% 75% 10% 5% ;
   }
+  a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+  }
   
   .imgIzq{
     display: flex;
@@ -49,10 +54,11 @@ body {
   }
   
   .logito {
-    height: 60%;
+    height: 70%;
     grid-column: 2;
     align-self: center;
   }
+  
   
   .srchImg{
     display: flex;
@@ -86,6 +92,14 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: xxx-large;
+  }
+
+  .form{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border: 1px solid #727272;
+    background-color: #004b93;
   }
 
  .callCenterDiv {
@@ -436,3 +450,72 @@ body {
 }
 
 
+footer {
+    display: flex;
+    color: #ffffff;
+    bottom: 0;
+    margin-top: -5px;
+    position: relative;
+    display: flow-root;
+    height: 200px;
+    width: 100%;
+    padding: 60px 0px 0px 39px;
+    background-color: #706f6f;
+    font-size: 20px;
+    font-family: Helvetica;
+    flex-direction: row;
+  }
+  .row{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    justify-content: space-around;
+    flex-direction: row;
+    
+  }
+  
+  .social {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 6px;
+  }
+  
+  .correo{
+    color: #f2f2f2;
+  }
+  
+  .traductor {
+    display: flex;
+    justify-content: flex-end;
+    justify-self: left;
+    flex-direction: row;
+  }
+  
+  .info{
+    display: flex;
+    flex-direction: row;
+    
+  
+  }
+  .lineaDiv {
+    padding: 20px;
+  
+  
+  }
+  
+  
+  .cont{
+    margin-left: 20px;
+  }
+  
+  .politicas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  .privacidad{
+    color: #ffffff;
+  }
+  
